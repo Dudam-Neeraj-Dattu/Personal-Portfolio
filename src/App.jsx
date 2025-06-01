@@ -1,10 +1,11 @@
 import React from 'react'
+import NavbarMain from './components/navbar/NavbarMain'
 
 const App = () => {
    return (
-      <div>
-
-      </div>
+      <main className='font-body'>
+         <NavbarMain/>
+      </main>
    )
 }
 
